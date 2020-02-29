@@ -71,6 +71,7 @@ public class Factorial {
         FileWriter oWrite = new FileWriter("fact_output.txt");
 
         long endTime = System.nanoTime();
+
         long finalTime = endTime-startTime;
 
         oWrite.write("RequestID: "+(arr[0]+100));
